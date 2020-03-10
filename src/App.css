@@ -1,0 +1,82 @@
+@import '~antd/dist/antd.css';
+
+body {
+  background: #f1f3fa;
+}
+
+.header-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.ant-row.nav-bar {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+img.avatar {
+  position: absolute;
+  /* border-radius: 50%; */
+  height: 120px;
+  box-shadow: 1px 1px 14px -3px #00000070;
+  /* top: -40px; */
+  z-index: 99;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.avatar-wrap {
+  width: 120px;
+  position: relative;
+  height: 100%;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.main-ccol {
+  background: #fff;
+  min-height: 600px;
+}
